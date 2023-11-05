@@ -1,28 +1,36 @@
 {
-    "name": "symfony/process",
-    "type": "library",
-    "description": "Executes commands in sub-processes",
-    "keywords": [],
-    "homepage": "https://symfony.com",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Fabien Potencier",
-            "email": "fabien@symfony.com"
-        },
-        {
-            "name": "Symfony Community",
-            "homepage": "https://symfony.com/contributors"
-        }
-    ],
-    "require": {
-        "php": ">=8.1"
+  "name": "demurgos/process",
+  "type": "library",
+  "description": "Executes commands in sub-processes",
+  "keywords": [],
+  "homepage": "https://symfony.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fabien Potencier",
+      "email": "fabien@symfony.com"
     },
-    "autoload": {
-        "psr-4": { "Symfony\\Component\\Process\\": "" },
-        "exclude-from-classmap": [
-            "/Tests/"
-        ]
+    {
+      "name": "Symfony Community",
+      "homepage": "https://symfony.com/contributors"
     },
-    "minimum-stability": "dev"
+    {
+      "name": "Charles Samborski",
+      "homepage": "https://demurgos.net/"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Demurgos\\Process\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Demurgos\\Process\\Test\\": "test/"
+    }
+  },
+  "minimum-stability": "dev"
 }

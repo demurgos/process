@@ -1,3 +1,9 @@
+This is the `symfony/process` package republished without depending on Symfony
+major versions. This also to version it based on breaking changes _in this
+package only_.
+
+---
+
 Process Component
 =================
 
